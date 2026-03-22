@@ -386,7 +386,7 @@ if go:
     all_labels  = []
     label_rows  = []
     photo_cols  = st.columns(len(uploaded))
-    progress    = st.progress(0, text="Sending photos to Gemini Vision…")
+    progress    = st.progress(0, text="Sending photos to LLaMA Vision…")
 
     for i, f in enumerate(uploaded):
         f.seek(0)
