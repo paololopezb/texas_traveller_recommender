@@ -1,0 +1,7 @@
+streamlit
+groq
+pillow
+pillow-heif
+scikit-learn
+pandas
+numpy

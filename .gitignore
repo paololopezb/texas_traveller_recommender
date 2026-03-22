@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Large files - don't upload to GitHub
+scraper y otros/
+*.csv
+!things_to_do_all_with_local_with_labels.csv
+
+# Secrets
+secrets.toml
+.streamlit/secrets.toml
